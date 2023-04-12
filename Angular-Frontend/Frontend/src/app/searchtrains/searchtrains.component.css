@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+    vertical-align: center ;
+    background-color: #818d93;
+    color:white;
+    font-style:initial;
+    font-size: 40px;
+    padding-bottom: 22px;
+    word-spacing: 10px;
+    margin-bottom: auto;
+}
+.bg {
+    /* The image used */
+    background-image: url("/assets/train6.jpg");
+    height: 150%; 
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* .container{
+    background-color:ivory;
+} */
+
+h2 {
+    text-align: center;
+    color:rgb(194, 40, 171);
+    word-spacing: 8px;
+}
+
+.mt-5 {
+        margin-top: 0rem !important;
+    }
+
+:host ::ng-deep 
+    .p-card .p-card-body {
+        padding: 1.25rem;
+        background-color: rgb(37, 199, 199);
+        margin-top: -5px;
+    }
